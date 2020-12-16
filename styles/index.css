@@ -1,4 +1,4 @@
-.topImage{
+.topImage {
     background-image: url(./プレゼンテーション1.jpg);
     height: calc(100vw*19.05/30.48);
     max-height: 500px;
@@ -18,19 +18,19 @@ main {
     margin-top: 0;
     background-color: black;
 }
-main h2{
+main h2 {
     color: white;
     font-size: 3rem;
     font-weight: bold;
 }
-main p{
+main p {
     font-size: 2.5vh;
 }
-main input{
+main input {
     margin-top: 6vh ;
     margin-bottom: 6vh;
 }
-main button{
+main button {
     color: white;
     height: 30px;
 }
