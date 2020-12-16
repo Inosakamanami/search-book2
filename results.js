@@ -6,7 +6,7 @@ window.addEventListener('load', function(){
     searchBooksBy(q);
 
     search.innerHTML +=`
-    <div class = "flex flex-horizontal">
+    <div class = "flex flex-center-justified">
     <h2>${q}</h2>
     <h2>検索結果</h2>
     </div>

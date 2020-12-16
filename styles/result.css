@@ -25,8 +25,13 @@
     padding: 4px;
 }
 @media screen and (min-width: 1000px){
-    .resultsbox{
-        color: red;
+    #results{
+        display: -ms-flexbox; 
+        display: flex;
+        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 10px;
     }
 }
 /* 1000 */
