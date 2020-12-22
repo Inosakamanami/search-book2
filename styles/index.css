@@ -35,7 +35,7 @@
 }
 
 /* Reset CSS */
-.btn-contained, .detailbtn{
+.btn-contained, .btn-results ,.btn-detail{
     background-color: rgb(255, 72, 0);
     border: none;
     cursor: pointer;
@@ -47,9 +47,15 @@
     -moz-appearance: none;
     -webkit-appearance: none;
 }
-.detailbtn{
+.btn-results{
+    margin-top: 3px;
+    border-radius: 4px;
+}
+.btn-detail{
     padding: 3px 3px 3px 40px;
     margin: 5px 5px;
+    text-decoration: none;
+    color:black;
 }
 
 #search{
@@ -76,10 +82,10 @@
     width: 440px;
     height: 250px;
 }
-.resultsboxtext{
+/* .resultsboxtext{
     text-decoration: none;
     color:black;
-} 
+}  */
 .resultscard{
     overflow-x: hidden;
     padding: 4px;

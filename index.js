@@ -65,8 +65,10 @@ function _itemsChanged(items) {
 
         results.innerHTML += `
         <div class = "resultsbox flex flex-horizontal">
+            <div class="flex flex-vertical">
             <img src="${thumbnail}" alt="">
-            <button>詳細</button>
+            <button class="btn-results">詳細</button>
+            </div>
             <div>
                 <h2>${title}</h2>
                 <p class = "resultscard">${description}</p>
@@ -87,7 +89,7 @@ function _itemsChanged(items) {
             <div class="flex flex-horizontal">
                 <div class="flex flex-vertical">
                     <img src="${thumbnail}" alt=""> 
-                    <a class="detailbtn" href="${buylink}">購入</a>
+                    <a class="btn-detail" href="${buylink}">購入</a>
                 </div>
             </div>
             <div class="flex flex-vertical">
